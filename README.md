@@ -19,7 +19,7 @@ The purpose of this project showcase familiarity with object-oriented programing
 
 
 ## Getting Started
-     Later versions of this program rely on POSIX libraries, making the choice of the operating system less significant at this stage. However, as the project progresses with future builds, the importance of the operating system will become more pronounced.
+Later versions of this program rely on POSIX libraries, making the choice of the operating system less significant at this stage. However, as the project progresses with future builds, the importance of the operating system will become more pronounced.
 
 ### Prerequisites
 
