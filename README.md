@@ -23,18 +23,18 @@ Later versions of this program rely on POSIX libraries, making the choice of the
 
 ### Prerequisites
 
-    Before you can run this program, make sure you have the following:
-    - GNU Make 4.2.1 or newer: required to build using the Makefile and make commands
-    - g++ Compiler: The GNU compiler is used to build and run the program. The compiler must support C++11.
+Before you can run this program, make sure you have the following:
+- GNU Make 4.2.1 or newer: required to build using the Makefile and make commands
+- g++ Compiler: The GNU compiler is used to build and run the program. The compiler must support C++11.
 
 ### Installation
-    Download the following files into the same folder:**
-    - 'Makefile' : Used for building the program
-    - 'dictionary.h' and 'dictionary.cpp' :Contain implementation for the Trie data structure.
-    - 'countprefix.cpp' : Contains main program logic for colunting prefixes
-    - 'testfile1.txt' and 'vocabulary.txt' : Sample text files for test the program.
+Download the following files into the same folder:**
+- 'Makefile' : Used for building the program
+- 'dictionary.h' and 'dictionary.cpp' :Contain implementation for the Trie data structure.
+- 'countprefix.cpp' : Contains main program logic for colunting prefixes
+- 'testfile1.txt' and 'vocabulary.txt' : Sample text files for test the program.
 ## Usage
-    This project is built and operated through the command line interface.
+This project is built and operated through the command line interface.
  - Open a terminal window and navigate to the folder that contains the project files. 
  - Run the following command to build the program:
     make ./countprefx
