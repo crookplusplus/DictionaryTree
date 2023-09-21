@@ -11,6 +11,9 @@ The purpose of this project showcase familiarity with object-oriented programing
 - **<u>C++ Standard:</u>** C++11 (extension in VS Code)
 - **<u>Build Tool:</u>** GNU Make 4.2.1 (extension in VS Code)
 
+#### **Dependencies:**
+- **cstring** - contains the strtok() function that is key to trimming words from the input.
+
 ## Features
  - **<u>Trie Data Structure:</u>** This program implements a Trie (prefix tree) for constructing the dictionary
  - **<u>Pointer Utilization:</u>** The extensive use of pointers in C++ demonstrates memory management and manipulation, illustrating how to work with complex data structures efficiently
@@ -19,7 +22,7 @@ The purpose of this project showcase familiarity with object-oriented programing
 
 
 ## Getting Started
-Later versions of this program rely on POSIX libraries, making the choice of the operating system less significant at this stage. However, as the project progresses with future builds, the importance of the operating system will become more pronounced.
+&nbsp;&nbsp;Later versions of this program rely on POSIX libraries, making the choice of the operating system less significant at this stage. However, as the project progresses with future builds, the importance of the operating system will become more pronounced as it will require a Unix based system to function as is.
 
 ### Prerequisites
 
@@ -30,16 +33,16 @@ Before you can run this program, make sure you have the following:
 ### Installation
 Download the following files into the same folder:**
 - 'Makefile' : Used for building the program
-- 'dictionary.h' and 'dictionary.cpp' :Contain implementation for the Trie data structure.
-- 'countprefix.cpp' : Contains main program logic for colunting prefixes
+- 'dictionary.h' and 'dictionary.cpp' : Contain implementation for the Trie data structure.
+- 'countprefix.cpp' : Contains main program logic for counting prefixes and driving the program.
 - 'testfile1.txt' and 'vocabulary.txt' : Sample text files for test the program.
 ## Usage
 This project is built and operated through the command line interface.
  - Open a terminal window and navigate to the folder that contains the project files. 
  - Run the following command to build the program:
-    make ./countprefx
+    _make ./countprefx_
 - Run the following command to run the program:
-    ./countprefix vocabulary.txt testfile1.txt
+    _./countprefix vocabulary.txt testfile1.txt_
 
 ## Output
 
