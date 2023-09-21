@@ -41,4 +41,6 @@ This project is built and operated through the command line interface.
 - Run the following command to run the program:
     ./countprefix vocabulary.txt testfile1.txt
 
+## Output
 
+The output of the program can be seen <a href="./testoutput.txt">here</a>!
